@@ -13,7 +13,8 @@ class Ideone
 		int A=sc.nextInt();
 		int B=sc.nextInt();
 		int C=sc.nextInt();
-		int AP=(C/2*((2*A)+(C-1)*B));
+		//int AP=(C/2*((2*A)+(C-1)*B));
+		int AP=(C*(2*A+(C-1)*B)/2);
 		System.out.println(AP);
 	}
 }
